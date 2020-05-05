@@ -63,7 +63,22 @@ margin: 50px auto;
 .social i{
   color:black;
 }
+
 @media screen and (max-width:768px){
 
-aaaaa
+  main{
+    width:100%;
+    margin: 50px auto;
+  }
+
+.step-box{
+  float:none;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px
+}
+
+.step-box:last-child{
+  margin-bottom: 0;
+}
 }
